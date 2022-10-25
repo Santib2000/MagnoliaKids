@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    padding: 1.5rem;
+    margin: 2rem;
+    margin-left: 2rem;
+    max-height: 30rem;
+    }
+
+
+    .text-envios {
+        text-transform: uppercase;
+    }
+
+.body {
+    background-color: #FDE0DC;
+}
+
+.img-fluid{
+    margin: 1.2rem;
+}
+
+    .container-icon  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+.container-envios {
+    margin: 2rem;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.icon-wsp {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    box-sizing: 0px 1px 10px;
+} 
+
+.container-footer {
+    bottom: 0;
+}
+
+/* PÁGINA PRODUCTOS */
+
+.container-grilla {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.text-cuotas {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.flex-cuotas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* PÁGINA CONTACTO */
+
+.titulo{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    
+}
+
+
+.contacto{
+    background-color: #FDE0DC;
+}
+
+.form {
+    margin: 1.5rem;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    margin: 2rem;
+    padding: 2rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+} 
+
+.botones {
+    margin: 2rem;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+   display: flex;
+   flex-direction: row;
+   
+}
