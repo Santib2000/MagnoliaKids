@@ -95,7 +95,7 @@
 }
 
 .formulario {
-    margin: 2rem 30rem;
+    margin: 2rem 10rem;
     padding: 2rem;
     gap: 2rem;
     display: flex;
@@ -182,11 +182,14 @@
 
      /* PAGINA FAQ */ 
 
+     .faq-body {
+        background-color:white ;
+     }
+
      .inicio {
         background-color: white; 
         height: 60rem;
         width: 100%; 
-        position: absolute;
 
     }
 
@@ -224,6 +227,12 @@
     
 }
 
+.general {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 
 
 
@@ -246,4 +255,15 @@
             display: none;
         }
 
+        .general {
+            display: block;
+        }
+
+    }
+
+    @media (max-width:1024px) { 
+        .footer {
+            margin-top:20rem;
+        }
+        
     }
