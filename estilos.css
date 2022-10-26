@@ -71,19 +71,35 @@
 /* PÁGINA CONTACTO */
 
 .titulo{
-    text-align: center;
-    margin-top: 4rem;
-    margin-bottom: 0;
-    text-transform: capitalize;
-    font-family: sans-serif;
+    
+background-image: linear-gradient(rgba(5,7,12,0.55),rgba(5,7,12,0.55)),
+    url(images/imagen\ principal.jpg);
+    background-size: 100vh;
+    background-position: center;
+    height: 500px;
+    margin-bottom: 5rem;
+}
 
+
+.titulo-contacto{
+    
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translatex(-50%) translateY(-200%);
+}
+
+.contacto{
+    background-color: #FDE0DC;
     
 }
 
 
-.contacto{
-    background-color: #FDE0DC;
-}
 
 .form {
     margin: 1rem;
@@ -95,7 +111,7 @@
 }
 
 .formulario {
-    margin: 2rem 10rem;
+    margin: auto;
     padding: 2rem;
     gap: 2rem;
     display: flex;
@@ -103,6 +119,13 @@
     align-items: center;
     background-color: white;
     flex-direction: column;
+    width: 450px;
+    background: rgb(0, 0, 0,0.1);
+    padding: 10px 20px; 
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    margin-bottom: 2rem;
 }  
 
 .botones {
@@ -182,11 +205,11 @@
 
      /* PAGINA FAQ */ 
 
-     .faq-body {
+    .faq-body {
         background-color:white ;
-     }
+    }
 
-     .inicio {
+    .inicio {
         background-color: white; 
         height: 60rem;
         width: 100%; 
@@ -204,8 +227,8 @@
     }
 
     .lineadivisoria {
-      margin-left: 20rem;
-      margin-right: 20rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
     }
 
 .titulo__preguntas {
@@ -228,14 +251,14 @@
 }
 
 .general {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
 
-
+{}
 
     @media (max-width: 768px) {
         .presentacion{
@@ -257,6 +280,10 @@
 
         .general {
             display: block;
+        }
+
+        .titulo {
+            display: none;
         }
 
     }
