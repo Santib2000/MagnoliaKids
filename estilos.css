@@ -180,7 +180,53 @@
         box-shadow: 5px 5px 5px #6d6875;
     } 
 
-   
+     /* PAGINA FAQ */ 
+
+     .inicio {
+        background-color: white; 
+        height: 60rem;
+        width: 100%; 
+        position: absolute;
+
+    }
+
+    .saludo {
+        margin: 2rem; 
+        text-align: center;
+    } 
+
+    .hola__saludo {
+        text-transform: uppercase;
+        color: pink 
+    }
+
+    .lineadivisoria {
+      margin-left: 20rem;
+      margin-right: 20rem;
+    }
+
+.titulo__preguntas {
+    font-size: 22px;
+    text-transform: uppercase; 
+    margin: 2rem;
+    text-align: center;
+}
+
+.preguntas {
+    margin-left: 2rem; 
+    color: pink;
+
+}
+
+.respuestas {
+    text-align: left;
+    margin: 0.5rem 2rem 2rem 2rem; 
+    
+}
+
+
+
+
 
     @media (max-width: 768px) {
         .presentacion{
