@@ -289,9 +289,17 @@ align-items: center;
 
     }
 
-    @media (max-width:1024px) { 
+    @media (min-width:576px) { 
         .footer {
             margin-top:20rem;
         }
         
+        .container-grilla {
+            gap: 2rem;
+            margin: 2rem;
+        }
+
+        .row {
+            gap: 1rem;
+        }
     }
