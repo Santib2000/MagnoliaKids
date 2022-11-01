@@ -10,9 +10,13 @@
     max-height: 30rem;
     }
 
+.card {
+    margin: 2rem;
+}
+
 
     .text-envios {
-        text-transform: uppercase;
+        text-transform: uppercase; 
     }
 
 .body {
@@ -31,7 +35,8 @@
     }
 
 .container-envios {
-    margin: 2rem;
+    margin: 1rem; 
+
 }
 
 .navbar {
@@ -302,4 +307,4 @@ align-items: center;
         .row {
             gap: 1rem;
         }
-    }
+    } 
