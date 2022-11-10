@@ -185,9 +185,7 @@ background-image: linear-gradient($linear-grandient),
         overflow: hidden;
         padding: 2rem;
         color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;  
+        @include displayflex;
     }
 
     .parrafo__article {
