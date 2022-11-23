@@ -29,6 +29,21 @@
   align-items: center;
 }
 
+.icon-truck {
+  animation-name: move;
+  animation-duration: 5s;
+  position: absolute;
+  margin-top: 2rem;
+}
+
+@keyframes move {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 45%;
+  }
+}
 .container-envios {
   margin: 2rem;
 }
@@ -242,6 +257,7 @@
   }
   .parrafo__article {
     display: block;
+    width: 100%;
     margin-top: 25rem;
   }
   .footer {
@@ -267,6 +283,12 @@
   }
   .row {
     gap: 1rem;
+  }
+}
+/* Medias-queries Contacto */
+@media (max-width: 768px) {
+  .formulario {
+    width: 100%;
   }
 }
 

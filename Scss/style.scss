@@ -22,14 +22,35 @@
 }
 
 .img-fluid{
-    margin: 1.2rem;
-}
+    margin: 1.2rem; 
+
+}  
+
+
 
     .container-icon  {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; 
         
+    } 
+
+    .icon-truck {
+        animation-name: move;
+        animation-duration: 5s;
+        position: absolute;
+        margin-top: 2rem;
+
+    }
+
+    @keyframes move {
+        from {
+            left: 0px; 
+        }
+
+        to {
+            left: 45%;
+        }
     }
 
 .container-envios {
@@ -46,7 +67,8 @@
     bottom: 30px;
     right: 30px;
     box-sizing: 0px 1px 10px;
-} 
+}  
+
 
 .container-footer {
     bottom: 0;
@@ -253,10 +275,13 @@ background-image: linear-gradient($linear-grandient),
     @media (max-width: 768px) {
         .presentacion{
             display: block;
-        }
+        }  
+
+
 
         .parrafo__article {
-            display: block;
+            display:block;
+            width: 100%; 
             margin-top: 25rem;
         } 
 
@@ -292,4 +317,12 @@ background-image: linear-gradient($linear-grandient),
             gap: 1rem;
         }
     } 
+
+/* Medias-queries Contacto */ 
+@media (max-width: 768px) {
+    .formulario {
+        width: 100%;
+    } 
+
+}
 
