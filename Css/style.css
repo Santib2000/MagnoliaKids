@@ -170,8 +170,9 @@
 }
 
 .texto_presentacion {
-  margin: 3rem;
+  padding: 2rem;
   text-align: left;
+  width: 100%;
 }
 
 .divtext_presentacion {
@@ -271,6 +272,26 @@
   }
   .titulo {
     display: none;
+  }
+  /* Nosotros */
+  .logomagnolia {
+    display: none;
+  }
+  .img_presentacion {
+    display: none;
+  }
+  .parrafo__article {
+    margin: 0;
+  }
+  .parrafo__section {
+    margin-top: 0;
+  }
+  .divtext_presentacion {
+    margin: 0;
+  }
+  .texto_presentacion {
+    width: 100%;
+    margin: 0;
   }
 }
 @media (min-width: 576px) {

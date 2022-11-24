@@ -79,7 +79,7 @@
 .container-grilla {
     margin: 2rem;
     padding: 2rem;
-}
+} 
 
 
 
@@ -189,8 +189,9 @@ background-image: linear-gradient($linear-grandient),
     } 
 
     .texto_presentacion {
-        margin: 3rem;
+        padding: 2rem;
         text-align: left; 
+        width: 100%;
     } 
 
     .divtext_presentacion{
@@ -301,6 +302,33 @@ background-image: linear-gradient($linear-grandient),
             display: none;
         }
 
+        /* Nosotros */
+
+        
+        .logomagnolia {
+            display: none;
+        } 
+
+        .img_presentacion{
+            display: none;
+        } 
+
+        .parrafo__article {
+            margin: 0;
+        } 
+
+        .parrafo__section {
+            margin-top: 0;
+        } 
+
+        .divtext_presentacion {
+            margin: 0;
+        } 
+
+        .texto_presentacion{
+            width: 100%; 
+            margin: 0;
+        }
     }
 
     @media (min-width:576px) { 
